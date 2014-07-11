@@ -15,12 +15,12 @@ Your task is to implement a RESTful `/query` HTTP `GET` endpoint in the Web fram
 
 When a client accesses the `/query` endpoint, it should read in all of the files in the Amazon S3 bucket `conspire-challenge` and return their contents as a JSON blob as specified below.
 
-For reference, the contents of one of the files, `opposites.txt`, is as follows:
+For reference, the contents of one of the files, `opposites.txt`, is as follows (where `\t` denotes the tab character):
 
-    Led Zeppelin	lameness
-    platypuses	likely things
-    Led Zeppelin	Maroon 5
-    Boulder, CO	Houston
+    Led Zeppelin\tlameness
+    platypuses\tlikely things
+    Led Zeppelin\tMaroon 5
+    Boulder, CO\tHouston
 
 An AWS access key id and secret with access to `conspire-challenge` will be provided to you over email.
 
