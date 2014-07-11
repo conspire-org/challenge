@@ -40,9 +40,9 @@ The line objects returned by the `/query` endpoint should be sorted according to
 
 1. If the `sort` argument is not provided or is empty, the line objects should be sorted as though a value of `fkv` had been provided.
 1. If the argument is of length 1 or greater, the line objects should be sorted as follows:
-  1. If the first character of sort is `f`, in alphabetical order of filename
-  1. If the first character of sort is `k`, in alphabetical order of key
-  1. If the first character of sort is `v`, in alphabetical order of value
+  1. If the first character of `sort` is `f`, in alphabetical order of filename
+  1. If the first character of `sort` is `k`, in alphabetical order of key
+  1. If the first character of `sort` is `v`, in alphabetical order of value
 1. Line objects with identical values for the property indicated by the first character of sort should be sorted as though a sort value had been provided equal to `sort[1..-1]` (the part of `sort` following the first character).
 
 So, for example, a call to `/query?sort=kv` should return a JSON array of objects sorted by key, then value, then filename, in descending order of precedence. **Note the inclusion of filename as a sort parameter under rules 1 and 3 above.**
