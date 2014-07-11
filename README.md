@@ -12,7 +12,7 @@ For this exercise, you'll use Ruby on Rails to build a REST API endpoint that re
 
 When a client accesses the /query endpoint, it should read in all of the files in the Amazon S3 bucket conspire-challenge and return their contents as a JSON blob as specified below.
 
-The AWS access key id for the challenge user is \_\_\_\_\_\_\_\_\_\_\_ and the secret key is \_\_\_\_\_\_\_\_\_\_\_\_\_\_. To browse the conspire-challenge bucket, log into the AWS console through Conspire's IAM login page via:
+The AWS access key id and secret key will be provided to you over email. To browse the conspire-challenge bucket, log into the AWS console through Conspire's IAM login page via:
 
     https://726449977433.signin.aws.amazon.com/console 
     username: challenge
