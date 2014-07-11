@@ -46,6 +46,8 @@ So, for example, a call to <http://localhost:3000/query?sort=kv> should return a
 
 Feel free to search the web, read online documentation, etc. the way you would if this were a real project. In particular, if you aren't familiar with Ruby, you may find it useful to bookmark www.ruby-doc.org.
 
+Please don't hesitate to ask us any questions you might have about the requirements, technical issues, or anything else.  One intent of this exercise is to get a feel for what it would be like to work on a project together, so don't be afraid to speak up at any time.
+
 Send us an email when you're done and we'll pull down your github repository, verify the output and take a close look at your code.
 
 Thanks for giving us this chance to get to know you and your code!
