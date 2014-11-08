@@ -57,6 +57,6 @@ Please don't hesitate to ask us any questions you might have about the requireme
 
 ## Submission
 
-Send us an email when you're done and we'll pull down your github repository, verify the output and take a close look at your code.
+You should push your code to a new GitHub respository. Send us an email when you're done and we'll pull it down, verify the output and take a close look at your code.
 
 Thanks for giving us this chance to get to know you and your code!
